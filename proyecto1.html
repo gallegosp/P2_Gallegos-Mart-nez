@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimiam</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/ico/icon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/70f9454d80.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-principal fixed-top" >
+            <div class="container-fluid" >
+              <a class="navbar-brand " href="#" >
+                  <img src="img/logo.png" width="150" height="20" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+
+                  <li class="nav-item">
+                    <a class="nav-link  h6" href="index.html" style="color:#98878F"> INICIO </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link  h6" aria-current="page" href="sobremi.html" style="color:#98878F"> SOBRE MI </a>
+                  </li>
+                  <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle h6" data-bs-toggle="dropdown" href="#" style="color:#98878F"> PROYECTOS </a>
+                    <ul class="dropdown-menu" style="background-color: rgb(127, 84, 114)">
+                      <li><a class="dropdown-item" href="proyecto1.html"> <b>Minimiam</b> </a></li>
+                      <li><a class="dropdown-item" href="proyecto2.html"> <b>Cortometraje</b> </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item " >
+                    <a class="nav-link  h6" href="galeria.html" style="color:#98878F"> GALERIA </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  h6" href="contacto.html" style="color:#98878F"> CONTACTO </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+  <main>
+   <!--Descripcion-->
+   <div class="pro1">
+        <div class="container text-center">
+            <div class="row aling-items-center">
+            <div class="container-fluid  p-5 text-center">
+                <h1 style="color: rgb(75,77,104);"> <strong>MINIMIAM</strong> </h1>
+                <br>
+                <p>
+                    El proyecto trato de crear una serie de fotografías a partir de diferente material
+                    que se tienen en casa, y se pueda usar como fondo o parte del
+                    escenario que servirá para recrear varias escenas de películas,
+                    y que se pueda observar que se logran buenas fotografías
+                    creativas con elementos que están a la mano y puedan
+                    despertar la imaginación utilizando los elementos para crear
+                    la composición de cada foto. Dichas fotos tienen como
+                    inspiración a el fotógrafo Pierre Javalle y Akiko Ida.</p>
+                <br>
+            </div>  
+            </div>  
+        </div> 
+        <div class="container text-center mt-5 pt-5" id="portfolio1">
+            <div class="row">
+                <!--imagen 1-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/2.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+                    <div class="modal fade text-center" id="portfolioModal1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                    <div class="modal-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-8">
+                                                <img src="img/2.jpg" alt="" width="100%" >
+                                            </div>
+                
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <a href="#portfolioModal9" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal2" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>  
+
+                <!--imagen 2-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/5.jpg" alt="" />
+                    </a>     
+                </div>
+            </div>
+                <div class="modal fade text-center" id="portfolioModal2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <img src="img/5.jpg" alt="" width="100%" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#portfolioModal1" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal3" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <!--imagen 3-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/g3.jpg" alt="" />
+                    </a>    
+                </div>
+            </div>
+                <div class="modal fade text-center" id="portfolioModal3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <img src="img/g3.jpg" alt="" width="100%" >
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#portfolioModal2" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal4" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+    
+                <!--imagen 4-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/13.jpg" alt="" />
+                        </a>
+                            
+                    </div>
+                </div>
+                    <div class="modal fade text-center" id="portfolioModal4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                    <div class="modal-body">
+                                        <div class="row justify-content-center">
+                                            <div class="col-lg-8">
+                                                <img src="img/13.jpg" alt="" width="100%" >
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <a href="#portfolioModal3" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal5" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--imagen 5-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/g9.jpeg" alt="" />
+                    </a>
+            
+                </div>
+            </div>
+                <div class="modal fade text-center" id="portfolioModal5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <img src="img/g9.jpeg" alt="" width="100%" >
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#portfolioModal4" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal6" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <!--imagen 6-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/12.jpg" alt="" />
+                    </a>
+                        
+                </div>
+            </div>
+                <div class="modal fade text-center" id="portfolioModal6" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <img src="img/12.jpg" alt="" width="100%" >
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#portfolioModal5" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal7" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+
+            <!--imagen 7-->
+            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                    <img class="img-fluid" src="img/10.jpg" alt="" />
+                </a>
+        
+            </div>
+        </div>
+            <div class="modal fade text-center" id="portfolioModal7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                            <div class="modal-body">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <img src="img/10.jpg" alt="" width="100%" >
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#portfolioModal6" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                <a href="#portfolioModal8" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                            </div>
+                    </div>
+                </div>
+            </div>  
+
+            <!--imagen 8-->
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/11.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+                <div class="modal fade text-center" id="portfolioModal8" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <img src="img/11.jpg" alt="" width="100%" >
+                                        </div>
+            
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <a href="#portfolioModal7" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                <a href="#portfolioModal9" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--imagen 9-->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/4.jpg" alt="" />
+                    </a>
+            
+                </div>
+            </div>
+                <div class="modal fade text-center" id="portfolioModal9" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Hacia el éxito</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <img src="img/4.jpg" alt="" width="100%" >
+                                        </div>
+            
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#portfolioModal8" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a>
+                                    <a href="#portfolioModal1" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div> 
+    </div> 
+    
+  </main>
+
+   <!--Footer-->
+   <footer class="text-center">
+    <div class="container-fluid bg-tx  p-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Enviame tus dudas</h2>
+          <font size=5><a href="mailto:paolaseconds62@gmail.com" style="color:#985E6D;">Paola Gallegos</a></font>
+        </div>
+        <div class="col-lg-4">
+          <h2>EXTRAS</h2>
+          <dl>
+            <font size=4.5><dt><a href="index.html#opiniones" style="color:#98878F;"> Opiniones</a></dt></font>
+            <font size=4.5><dt><a href="index.html#marcas" style="color:#98878F;"> Marcas</a></dt></font>
+            <font size=4.5><dt><a href="proyecto1.html" style="color:#98878F;"> Minimiam</a></dt></font>
+            <font size=4.5><dt><a href="proyecto2.html" style="color:#98878F;"> Cortometraje</a></dt></font>
+          </dl>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-around align-self-center" width="100%" >
+          <a href="https://es-la.facebook.com/" style="color: #985E6D; "><i class="fa-brands fa-4x fa-facebook " ></i></a>
+          <a href="https://twitter.com/?lang=es" style="color:#985E6D;"><i class="fa-brands fa-4x fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/" style="color:#985E6D;"><i class="fa-brands fa-4x fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+</footer> 
+
+</body>
+</html> 

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/ico/icon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/70f9454d80.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-principal fixed-top" >
+            <div class="container-fluid" >
+              <a class="navbar-brand " href="#" >
+                  <img src="img/logo.png" width="150" height="20" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+
+                  <li class="nav-item">
+                    <a class="nav-link  h6" href="index.html" style="color:#98878F"> INICIO </a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link  h6" aria-current="page" href="sobremi.html" style="color:#98878F"> SOBRE MI </a>
+                  </li>
+                  <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle h6" data-bs-toggle="dropdown" href="#" style="color:#98878F"> PROYECTOS </a>
+                    <ul class="dropdown-menu" style="background-color: rgb(127, 84, 114)">
+                      <li><a class="dropdown-item" href="proyecto1.html"> <b>Minimiam</b> </a></li>
+                      <li><a class="dropdown-item" href="proyecto2.html"> <b>Cortometraje</b> </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item " >
+                    <a class="nav-link  h6" href="galeria.html" style="color:#98878F"> GALERIA </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  h6" href="contacto.html" style="color:#98878F"> CONTACTO </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+            <div class="contact"> 
+              <div class="container-fluid  p-5 text-center"> 
+                  <div class="row">
+                    <h1 style="color:rgb(152, 125, 143);">CONTACTO</h1>
+                  </div> 
+              </div>    
+            
+              <div class="container pad-y my-5 text-center">
+                  <div class="row aling-items-center">
+                    <div class="col-lg-6">
+                      <h1 style="color: rgb(152, 125, 143);">¡Contactame!</h1>
+                      <br>
+                      <p>Si tiene alguna pregunta o propuesta no dude en enviarme un correo electrónico </p>
+                    </div>
+                     <div class="col-lg-6">
+                        <form id="Formulario"> 
+                            <div class="my-3"> 
+                                <label for="name">Nombre:</label> 
+                                <input type="text" name="name" class="form-control" id="Nombre" placeholder="Enter name" required> 
+                            </div> 
+  
+                            <div class="my-3"> 
+                            <label for="email">Correo:</label> 
+                            <input type="email" name="email" class="form-control" id="Correo" placeholder="Enter email" required> 
+                            </div> 
+  
+                            <div class="mb-3"> 
+                                <label for="adress">Tema:</label> 
+                                <input type="text" name="message" class="form-control" id="Tema" placeholder="Enter topic " > 
+                            </div> 
+  
+                            <div class="mb-3"> 
+                                <label for="message">Mensaje:</label> 
+                                <textarea name="message" class="form-control" placeholder="Enter message" required="" id="Enter  "></textarea> 
+                            </div> 
+
+                            <button type="submit" class="btn btn-outline-danger" name="enviar">Enviar</button>
+                           
+                        </form> 
+                      </div>   
+                  </div>  
+              </div> 
+            </div>    
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+     
+
+    <script> 
+      $(document).ready(function(){ 
+          $("#Formulario").submit(function(e) { 
+              e.preventDefault(); 
+              const nombre = $("#Nombre").val(); 
+              const correo = $("#Correo").val(); 
+              const tel = $("#Tel").val(); 
+              const direccion = $("#Direccion").val(); 
+              const mensaje = $("#Mensaje").val(); 
+
+              const referencia = "mailto:majo.uni@hotmail.com?subject=Peticicion%20de%20informacion&body=Nombre:%20"+nombre+"%0D%0ACorreo:%20"+correo+"%0D%0ATelefono:%20"+tel+"%0D%0ADirección:%20"+direccion+"%0D%0AMensaje:%20"+mensaje; 
+              const enlace = document.createElement("a"); 
+              enlace.href = referencia; 
+              enlace.click();  
+          }); 
+      }); 
+    </script>    
+
+     <!--Footer-->
+     <footer class="text-center">
+        <div class="container-fluid bg-tx  p-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <h2>Enviame tus dudas</h2>
+              <font size=5><a href="mailto:paolaseconds62@gmail.com" style="color:#985E6D;">Paola Gallegos</a></font>
+            </div>
+            <div class="col-lg-4">
+              <h2>EXTRAS</h2>
+              <dl>
+                <font size=4.5><dt><a href="index.html#opiniones" style="color:#98878F;"> Opiniones</a></dt></font>
+                <font size=4.5><dt><a href="index.html#marcas" style="color:#98878F;"> Marcas</a></dt></font>
+                <font size=4.5><dt><a href="proyecto1.html" style="color:#98878F;"> Minimiam</a></dt></font>
+                <font size=4.5><dt><a href="proyecto2.html" style="color:#98878F;"> Cortometraje</a></dt></font>
+              </dl>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-around align-self-center" width="100%" >
+              <a href="https://es-la.facebook.com/" style="color: #985E6D; "><i class="fa-brands fa-4x fa-facebook " ></i></a>
+              <a href="https://twitter.com/?lang=es" style="color:#985E6D;"><i class="fa-brands fa-4x fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/" style="color:#985E6D;"><i class="fa-brands fa-4x fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+    </footer> 
+
+</body>
+</html>
